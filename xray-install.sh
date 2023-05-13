@@ -8,10 +8,6 @@ opkg install xray-core_1.8.1-1_mipsel_24kc.ipk -d ram
 rm xray-core_1.8.1-1_mipsel_24kc.ipk
 service passwall restart
 
-mkdir -p /tmp/usr/share/xray/
-cd /tmp/usr/share/xray/
-wget https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/iran.dat -O iran.dat
-
 cd /root/
 
 echo "OK !"
